@@ -21,13 +21,36 @@
     }
 }
 
-body {
-    background: rgb(151, 148, 199);
-    background: linear-gradient(169deg,
-            rgba(49, 43, 145, 0.7483368347338936) 0%,
-            rgba(9, 85, 121, 0.46262254901960786) 43%,
-            rgba(0, 212, 255, 1) 91%);
-}
+body {    
+  background: rgb(195,147,192);
+  background: radial-gradient(circle, rgba(195,147,192,1) 0%, rgba(80,136,166,1) 100%);
+  }
+      
+  /* background-image: url("https://trianglify.io/p/w:1440!h:900!x:YlOrBr!v:0.697!c:0.175!s:oq9y0r!f:sp!i:0.30");
+} */
+
+/* background-image: linear-gradient(to bottom,
+      rgba(255, 255, 0, 0.5),
+      rgba(0, 0, 255, 0.5)), 
+      url("https://trianglify.io/p/w:1440!h:900!x:YlOrBr!v:0.697!c:0.175!s:oq9y0r!f:sp!i:0.30");
+
+/* Valores globales */
+/* background-image: inherit;
+background-image: initial;
+background-image: revert;
+background-image: revert-layer;
+background-image: unset; */ */
+/* background-image: url("https://trianglify.io/p/w:1440!h:900!x:YlOrBr!v:0.697!c:0.175!s:oq9y0r!f:sp!i:0.30"); */
+/* src="C:\Users\57301\OneDrive\Escritorio\Culturalia-1\public\trianglify-lowres.png"; */
+
+
+/* .card {
+background: rgb(195,199,205);
+background: linear-gradient(22deg, rgba(195,199,205,0.28895308123249297) 12%, rgba(29,27,29,0.9108018207282913) 61%);
+color: white;
+box-shadow: 10px 10px 6px 0px rgba(255, 255, 255, 0.22);
+} */
+
 
 .card {
     background: rgb(195,199,205);

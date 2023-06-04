@@ -35,18 +35,19 @@ export default function Opinion({ title, description, evento, opinion, reseña})
 
   return (
     <div id="cont" className="grid gap-4 grid-cols-2" style={{
-      width: "40vw",
+      width: "80vw",
       justifyContent: "center",
       backgroundColor: "gray",
       marginLeft: "4px",
       marginRight: "4px",
       padding: "12px",
+      border:"2px solid",
     }}>
-      <div className="izquierda" style={{ width: "40vw", justifySelf: "left" }}>
+      <div className="izquierda" style={{ justifySelf: "left" }}>
         <h1 style={{ marginTop: "12px", marginBottom: "12px" }}>{title}</h1>
         <p>{description}</p>
       </div>
-      <div className="derecha" style={{ width: "40vw", justifySelf: "right" }}>
+      <div className="derecha" style={{ justifySelf: "right" }}>
         <h1 style={{ marginTop: "12px", marginBottom: "12px" }}>{evento}</h1>
         <p>{opinion}</p>
       </div>

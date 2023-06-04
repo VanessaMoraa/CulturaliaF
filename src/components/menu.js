@@ -14,8 +14,8 @@ export default function Menu() {
     Router.push('/');
 };
   return (
-    <div style={{ display: "flex", justifyContent: "space-between" }}>
-      <div className="mb-1 text-xl text-white-900" style={{fontFamily:'monospace', fontSize:'160%'}}>
+    <div style={{ display: "flex", justifyContent: "space-evenly", backgroundColor:"grey", padding:"10px"  }}>
+      <div className="mb-1 text-xl text-white-900" style={{fontFamily:'monospace', fontSize:'200%'}}>
             Culturalia 
       </div>
       {/* style={{fontFamily: "Monoton" }}>Culturalia */}

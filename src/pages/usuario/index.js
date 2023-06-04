@@ -29,7 +29,7 @@ export default function Usuario() {
 
     return (
         <Layout>
-            <div style={{ width: '800px', padding: '40px', border: '5px solid #ccc', borderRadius: '10px' }}>
+            <div style={{ width: '800px', padding: '40px', border: '5px solid #ccc', borderRadius: '10px', justifyContent:"center", alignContent:"center" }}>
                 <h1 style={{ marginBottom: '20px' }}>¿Tienes dudas sobre tu usuario?</h1>
                 <form onSubmit={handleSubmit}>
                     <div className="mb-6">

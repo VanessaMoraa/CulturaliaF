@@ -4,6 +4,7 @@ import React from 'react';
 import Layout from "./layout/layout";
 import Card from '@/components/card';
 import { Carousel } from 'flowbite';
+import './globals.css'
 
 const places = [
     {
@@ -27,18 +28,17 @@ const places = [
     {
         title: "Finlandia",
         description: "Se sitúa en la cima de una colina que ofrece vistas panorámicas de algunos de los paisajes más magníficos del eje cafetero",
-        image: "/Mina de sal.jpg",
+        image: "/Finlandia.jpg",
     },
     {
         title: "Bahia Solano",
         description: "Tiene unos paisajes inimaginables, la selva húmeda se siente a flor de piel, el sol da un calor húmedo y las lluvias generan una increíble necesidad de adentrarse en el mar",
-        image: "/Mina de sal.jpg",
+        image: "/Bahia Solano.jpg",
     },
     {
         title: "Islas de los Monos",
         description: "Se trata de un centro de rescate ubicado a 30 km de Iquitos, donde lo único que se respira es vegetación y libertad. Aquí pasarás divertidos e inolvidables momentos en compañía de muchos monitos que viven temporalmente en este lugar",
-        image: "/Mina de sal.jpg",
-        image: "/finlandia.jpg",
+        image: "/Islas del mico.jpg",
     },
     {
         title: "Bahia Solano",
@@ -52,12 +52,11 @@ const places = [
         image: "/Islas del mico.jpg",
 
         description: "Tiene unos paisajes inimaginables, la selva húmeda se siente a flor de piel, el sol da un calor húmedo y las lluvias generan una increíble necesidad de adentrarse en el mar",
-        //Falta imagen 
     },
     {
         title: "Islas de los Monos",
         description: "Se trata de un centro de rescate ubicado a 30 km de Iquitos, donde lo único que se respira es vegetación y libertad. Aquí pasarás divertidos e inolvidables momentos en compañía de muchos monitos que viven temporalmente en este lugar",
-        //Falta imagen 
+        image: "/Islas del mico.jpg",
     },
 ]
 export default function Inicio() {
@@ -94,7 +93,7 @@ export default function Inicio() {
                 />
             </Carousel></div> */}
             <div>
-                <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", width: "80vw", gap: "10px", }}>
+                <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", width: "80vw", gap: "10px", padding:"10px"}}>
 
                     {places.map((place, index) => {
 

@@ -10,7 +10,7 @@ const Star = ({ filled, onClick }) => {
     cursor: 'pointer',
     color: filled ? 'gold' : 'white',
     fontSize: '24px',
-    
+
   };
 
   return <span onClick={onClick} style={starStyle}>★</span>;
@@ -48,17 +48,17 @@ export default function Perfiles() {
 
     return (
       <div className="tarjeta">
-      <div className="flex justify-end px-4 pt-4"></div>
-      <div className="flex justify-end px-4 pt-4"></div>
-      <div className="flex justify-end px-4 pt-4"></div>
-      <div className="flex flex-col items-center pb-10">
-        <div className="flex items-center space-x-4 mb-4">
-          <img
-            className="w-12 h-12 rounded-full shadow-lg"
-            src={avatar}
-            alt="Imagen de perfil"
-          />
-         
+        <div className="flex justify-end px-4 pt-4"></div>
+        <div className="flex justify-end px-4 pt-4"></div>
+        <div className="flex justify-end px-4 pt-4"></div>
+        <div className="flex flex-col items-center pb-10">
+          <div className="flex items-center space-x-4 mb-4">
+            <img
+              className="w-12 h-12 rounded-full shadow-lg"
+              src={avatar}
+              alt="Imagen de perfil"
+            />
+
           </div>
           <h5 className="mb-1 text-xl font-medium text-white-900">
             {nombre}
@@ -70,16 +70,18 @@ export default function Perfiles() {
             <span>{identificacion}</span>
           </div>
           <p></p>
-          <div className="text-sm text-white-500">
+          <div className="text-sm text-white-500" style={{ justifyContent: "center" }}>
             <span>{conoce}</span>
           </div>
+          <p></p>
           <p></p>
           <div className="text-sm text-white-500">
             <span>{reseña}</span>
           </div>
-          
+          <p></p>
+          <p></p>
           <Rating rating={rating} onStarClick={handleStarClick} />
-          
+
         </div>
       </div>
     );

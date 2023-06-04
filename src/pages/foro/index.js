@@ -2,6 +2,7 @@
 import Opinion from '@/components/opinion';
 import React from 'react';
 import Layout from "../layout/layout";
+import './foro.css';
 
 const opiniones = [
     {
